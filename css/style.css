@@ -6,13 +6,15 @@ body {
 
     /* padrronização de cores e fonte*/
     font-family: 'Roboto', sans-serif;
-    background-color: #1b1c30;
+    background-color: #5c60ad;
     color: #fff;
     align-items: center;
 }
 
 .caixa img {
+    padding-top: 250px;
     width: 180px;
+    
 }
 
 .textbox img {
@@ -43,7 +45,7 @@ body {
     width: 250px;
     height: 35px;
     padding-left: 15px;
-    background-color: #292a38;
+    background-color: #bdc0ff;
     color: #96979e;
 }
 
@@ -54,7 +56,7 @@ body {
 
 a {
     text-decoration: none;
-    color: aquamarine;
+    color: rgb(82, 0, 214);
 
 }
 
@@ -64,6 +66,16 @@ a {
     border: none;
     width: 120px;
     height: 40px;
-    background-color: #77c97c;
-    color: #1b1c30;
+    background-color: #55268b;
+    color: #ffffff;
+}
+
+.button {
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: none;
+    color: #ffffff;
 }
