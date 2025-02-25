@@ -1,5 +1,6 @@
+/* Estilos gerais */
 body {
-    background-color: #ADD8E6;
+    background-color: #6A4C9C; /* Fundo roxo/violeta */
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -7,42 +8,86 @@ body {
     height: 100vh;
     margin: 0;
 }
-.login-container {
-    background-color: white;
-    padding: 20px;
+
+/* Container principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo transparente */
+    padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/* Logo */
 .logo img {
     width: 100px;
-    height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
-.form-group {
-    margin-bottom: 15px;
+
+/* Título */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
-.form-group input {
+
+/* Campos de entrada */
+input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    margin: 10px 0;
     border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 16px;
 }
-.login-button {
-    background-color: #4CAF50;
+
+/* Botão principal */
+.btn-primary {
+    background-color: #3e2a8e; /* Roxo escuro */
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 12px;
+    width: 100%;
+    margin: 10px 0;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
+    font-size: 16px;
 }
-.register-link {
-    margin-top: 10px;
-    display: block;
-    color: #007BFF;
+
+.btn-primary:hover {
+    background-color: #4c2f9e;
+}
+
+/* Link de cadastro */
+.btn-link {
+    color: #b07fd6; /* Roxo mais claro */
     text-decoration: none;
 }
-.register-link:hover {
+
+.btn-link:hover {
     text-decoration: underline;
+}
+
+/* Botões adicionais */
+.additional-buttons {
+    margin-top: 20px;
+}
+
+.btn-secondary {
+    background-color: #3e2a8e; /* Roxo escuro */
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-secondary:hover {
+    background-color: #4c2f9e;
 }

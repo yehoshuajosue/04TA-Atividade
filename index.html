@@ -12,35 +12,30 @@
         <title>Login</title>
     </head>
     <body>
-        <div id = "login">
-            <div class = "caixa">
-                <img src="./img/logo.webp" alt="Logo">
-                <h1>LOGIN</h1>
-                <div class = "email">
-                    <input type = "email" placeholder = "E-mail">
-                </div>
-                <div class = "senha">
-                    <input type = "password" placeholder = "Senha">
-                </div>
-                <div class = "entrar">
-                    <p>Ainda não tem uma conta? <a href = "./pages/cadastro.html">Crie uma.</a></p>
-                    <input type = "submit" value="Entrar">
-                </div>
-                
-                <div class="button">
-                    <a href="./pages/loginseek.html">
-                        <button type="button">Deep Seek</button>
-                    </a>
-                    <a href="./pages/logingpt.html">
-                        <button type="button">Chat GPT</button>
-                    </a>
-                    <a href="#">
-                        <button type="button">Gemini</button>
-                    </a>
-                </div>
-
+        <div class="container">
+            <div class="logo">
+                <img src="./img/logo.webp" alt="Logo Flor de Lótus"> 
             </div>
-
-        </div>   
+            <h1>LOGIN</h1>
+            <form>
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <button type="submit">Entrar</button>
+            </form>
+            <div class="signup-link">
+                <p>Ainda não tem uma conta? <a href="#">Crie uma.</a></p>
+            </div>
+            <div class="buttons">
+                <a href="./pages/loginseek.html">
+                    <button type="button">Deep Seek</button>
+                </a>
+                <a href="./pages/logingpt.html">
+                    <button type="button">Chat GPT</button>
+                </a>
+                <a href="./pages/original.html">
+                    <button type="button">Layout Original</button>
+                </a>
+            </div>
+        </div>
     </body>
 </html>

@@ -1,76 +1,98 @@
-body {
+/* Reset básico */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6A1B9A; /* Roxo/violeta */
     font-family: Arial, sans-serif;
-    background-color: #ADD8E6; /* Azul claro */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: white;
 }
 
-.login-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo levemente transparente */
+    padding: 2rem;
+    border-radius: 15px; /* Cantos arredondados */
     text-align: center;
+    width: 100%;
+    max-width: 400px;
 }
 
 .logo img {
-    width: 100px;
-    height: auto;
+    width: 80px;
+    margin-bottom: 1rem;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #333;
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
-.input-group {
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
-}
-
-.input-group input {
+input {
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50; /* Verde */
-    color: white;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo levemente transparente */
+    color: white;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-primary {
+    background-color: #4A148C; /* Roxo escuro */
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
     cursor: pointer;
-    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
-button:hover {
-    background-color: #45a049;
+.btn-primary:hover {
+    background-color: #38006B; /* Roxo mais escuro */
 }
 
-p {
-    margin-top: 15px;
-    color: #555;
+.signup-link {
+    margin-bottom: 1.5rem;
 }
 
-p a {
-    color: #4CAF50;
+.signup-link a {
+    color: #BA68C8; /* Roxo claro */
     text-decoration: none;
 }
 
-p a:hover {
+.signup-link a:hover {
     text-decoration: underline;
+}
+
+.additional-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-secondary {
+    background-color: #4A148C; /* Roxo escuro */
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #38006B; /* Roxo mais escuro */
 }

@@ -3,24 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
     <link rel="stylesheet" href="../css/stylegpt.css">
-    <title>Login - Floricultura Lírio</title>
 </head>
 <body>
-    <div class="login-container">
+    <div class="container">
+        <!-- Logo: Flor de lótus estilizada -->
         <div class="logo">
-            <img src="lirio-logo.png" alt="Logo Lírio">
+            <img src="../img/logo.webp" alt="Logo da Flor de Lótus">
         </div>
-        <form>
-            <div class="form-group">
-                <input type="email" placeholder="Email" required>
-            </div>
-            <div class="form-group">
-                <input type="password" placeholder="Senha" required>
-            </div>
-            <button type="submit" class="login-button">Entrar</button>
+        
+        <!-- Título -->
+        <h1>LOGIN</h1>
+        
+        <!-- Formulário de login -->
+        <form action="#" method="POST">
+            <input type="email" placeholder="E-mail" required>
+            <input type="password" placeholder="Senha" required>
+            <button type="submit" class="btn-primary">Entrar</button>
         </form>
-        <a href="#" class="register-link">Criar Cadastro</a>
+        
+        <!-- Links -->
+        <p>Ainda não tem uma conta? <a href="#" class="btn-link">Crie uma.</a></p>
+        
+        <!-- Botões adicionais -->
+        <div class="additional-buttons">
+            <a href="../pages/loginseek.html">
+                <button class="btn-secondary">Deep Seek</button>
+            </a>
+            <a href="../index.html">
+                <button class="btn-secondary">Gemini</button>
+            </a>
+        </div>
     </div>
 </body>
-</html>    
+</html>

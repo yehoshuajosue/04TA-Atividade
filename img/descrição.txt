@@ -1,0 +1,23 @@
+Faça uma tela de Login a patir da descrição abaixo:
+
+Logo/Ícone
+Uma flor de lótus estilizada no topo da tela, com pétalas em amarelo e roxo, e folhas em verde
+Título
+A palavra "LOGIN" em letras maiúsculas e brancas
+Campos de entrada
+Campo para "E-mail"
+Campo para "Senha"
+Ambos os campos têm um fundo levemente transparente
+Link de cadastro
+Texto "Ainda não tem uma conta?"
+Link "Crie uma." em roxo mais claro
+Botões
+Botão principal "Entrar" em roxo escuro
+Dois botões adicionais na parte inferior:
+"Deep Seek" em roxo escuro
+"Chat GPT" em roxo escuro
+Design
+Fundo em tom roxo/violeta
+Container principal com cantos arredondados e um fundo levemente transparente
+Layout centralizado e clean
+Esquema de cores predominante em tons de roxo e branco
